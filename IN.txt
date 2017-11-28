@@ -1,0 +1,11 @@
+    ORG 100
+    LDA SUB
+    CMA
+    INC
+    ADD MIN
+    STA DIF
+    HLT
+MIN,  DEC 0053
+SUB,  DEC 0065
+DIF,  DEC 0
+    END
